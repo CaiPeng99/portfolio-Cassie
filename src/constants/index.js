@@ -9,21 +9,30 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2025/01 - 2025/05",
+    role: "Cloud Archiitect Intern",
+    company: "Wintergreen",
+    description: `Focus on Cloud Infrastructure & Full-Stack Development with PHP and Laravel;
+            Cloud Infrastructure: Hands-on experience with AWS services including EC2, S3, RDS, ELB, Route 53, and more.
+            Full-Stack Development: Built and optimized applications using PHP and Laravel, ensuring robust backend systems and seamless user experiences.`,
+    technologies: ["AWS", "PHP", "Laravel","Vue.js", "Postman", "EC2", "S3", "RDS", "ELB", "Route 53"],
+  },
+  {
+    year: "2024/8 - Present/12",
     role: "Student Developer",
     company: "Develop For Good",
     description: `Collaborated with a nonprofit organization to develop a mobile application aimed at providing financial knowledge for k12 students. Designed and implemented interactive app features using Expo, React.js and Firebse to enhance user engagement and accessibility. Collaborated with teammates and client to define project requirements and timelines.`,
     technologies: ["React.js", "Expo", "Firebase"],
   },
   {
-    year: "2023 - 2023",
+    year: "2023/03 - 2023/12",
     role: "Software Engineer",
     company: "Huawei Technologies Co., Ltd",
     description: `Developed and executed a robust microservices-based sign-in system utilizing Java and Spring Boot tech stacks. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
     technologies: ["Java", "Spring Boot", "Zipkin", "Eureka", "Spring Cloud Gateway", "Hibernate", "Docker", "Prometheus"],
   },
   {
-    year: "2022 - 2022",
+    year: "2022/05 - 2022/12",
     role: "Software Intern",
     company: "Wuhan Xingtu Xinke Electronics Co., Ltd",
     description: `Contributed to the development of employee blogging website using React.js, Express.js and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
