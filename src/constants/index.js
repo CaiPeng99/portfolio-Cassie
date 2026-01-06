@@ -9,6 +9,16 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
+    year: "2025/06 - 2025/09",
+    role: "Software Engineer Intern",
+    company: "Schlumberger (SLB)",
+    description: `Developed an internal task management platform using Angular and C#, enhancing team productivity and collaboration.
+              Restructured NoSQL data models in MongoDB, achieving a 27% improvement in query execution through strategic indexing
+      and storage design.
+      Automated the release lifecycle by building ArgoCD pipelines and established real-time system health visibility with Grafana.`,
+    technologies: ["Angular", "C#", "MongoDB", "Redis","Azure", "ArgoCD", "RESTful APIs", "Grafana"],
+  },
+  {
     year: "2025/01 - 2025/05",
     role: "Cloud Archiitect Intern",
     company: "Wintergreen",
@@ -24,16 +34,16 @@ export const EXPERIENCES = [
     description: `Collaborated with a nonprofit organization to develop a mobile application aimed at providing financial knowledge for k12 students. Designed and implemented interactive app features using Expo, React.js and Firebse to enhance user engagement and accessibility. Collaborated with teammates and client to define project requirements and timelines.`,
     technologies: ["React.js", "Expo", "Firebase"],
   },
-  {
-    year: "2023/03 - 2023/12",
-    role: "Software Engineer",
-    company: "Huawei Technologies Co., Ltd",
-    description: `Developed and executed a robust microservices-based sign-in system utilizing Java and Spring Boot tech stacks. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Java", "Spring Boot", "Zipkin", "Eureka", "Spring Cloud Gateway", "Hibernate", "Docker", "Prometheus"],
-  },
+  // {
+  //   year: "2023/03 - 2023/12",
+  //   role: "Software Engineer",
+  //   company: "Huawei Technologies Co., Ltd",
+  //   description: `Developed and executed a robust microservices-based sign-in system utilizing Java and Spring Boot tech stacks. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+  //   technologies: ["Java", "Spring Boot", "Zipkin", "Eureka", "Spring Cloud Gateway", "Hibernate", "Docker", "Prometheus"],
+  // },
   {
     year: "2022/05 - 2022/12",
-    role: "Software Intern",
+    role: "Software Engineer Intern",
     company: "Wuhan Xingtu Xinke Electronics Co., Ltd",
     description: `Contributed to the development of employee blogging website using React.js, Express.js and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "MaterialUI"],
@@ -41,6 +51,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Distributed CI/CD System",
+    image: blog_web,
+    description:
+      "A full-stack blog website using the MERN stack ",
+    technologies: ["React", "Node.js", "Express.js",  "MongoDB"],
+  },
   {
     title: "BlogSphere",
     image: blog_web,
@@ -74,5 +91,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "US ",
   phoneNo: "+1 207 331 1650 ",
-  email: "peng.cai@northeastern.edu",
+  email: "peng.cai@northeastern.edu or pengcai99@gmail.com(Personal) ",
 };
