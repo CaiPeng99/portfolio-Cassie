@@ -1,6 +1,9 @@
 import blog_web from "../assets/projects/blog_web.png";
 import converter from "../assets/projects/converter.png";
 import currencyExchanger from "../assets/projects/currencyExchanger.png";
+import cicd_platform from "../assets/projects/cicd_platform.png";
+import mercuryViz from "../assets/projects/mercuryViz.png";
+import streamSmith from "../assets/projects/streamSmith.png";
 
 export const HERO_CONTENT = `I am a software engineer with expertise in building scalable microservices and cloud-native applications. Through internships at companies like Schlumberger and Wintergreen, I have developed robust systems using Java, Spring Boot, C#, and Angular, while architecting solutions on AWS and Azure. My experience spans distributed systems with Redis caching and service discovery, CI/CD pipelines with ArgoCD, and container orchestration using Docker and Kubernetes. I'm passionate about leveraging AI tools and cloud technologies to create high-performance applications that solve real-world problems.`;
 
