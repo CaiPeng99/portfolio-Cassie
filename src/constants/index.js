@@ -51,25 +51,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Distributed CI/CD System",
-    image: blog_web,
+    title: "MercuryViz: AI-Driven Chart Recommender",
+    image: mercuryViz,
     description:
-      "A full-stack blog website using the MERN stack ",
-    technologies: ["React", "Node.js", "Express.js",  "MongoDB"],
+      "An intelligent data visualization tool that leverages Google Gemini API and LangChain to analyze CSV files and automatically generate chart recommendations. Features few-shot prompting strategies to categorize complex data columns (categorical, numerical, temporal) and a responsive React dashboard that presents AI-generated JSON specifications and chart logic.",
+    technologies: ["React", "Python", "Flask", "Gemini API", "LangChain", "Pandas"],
   },
   {
-    title: "BlogSphere",
-    image: blog_web,
+    title: "Distributed CI/CD Platform",
+    image: cicd_platform,
     description:
-      "A full-stack blog website using the MERN stack ",
-    technologies: ["React", "Node.js", "Express.js",  "MongoDB"],
+      "A distributed continuous integration platform with microservices architecture that processes YAML workflows with dependency resolution (DAG) and distributed job execution. Features a Go control plane with gRPC server, REST API, and RabbitMQ for reliable job distribution. Runners built in Rust handle isolated Docker container execution. Includes real-time log streaming via SSE to a React dashboard, scalable artifact storage with MinIO using presigned URLs, and Prometheus metrics for observability.",
+    technologies: ["Go", "Rust", "React", "Docker", "PostgreSQL", "RabbitMQ", "MinIO", "Nginx"],
   },
   {
-    title: "Video_to_mp3_converter",
+    title: "StreamSmith: Real-Time Data Pipeline",
+    image: streamSmith,
+    description:
+      "A high-throughput, real-time data pipeline using Kafka and Spark for combined streaming and batch processing of traffic data, achieving a 30% boost in data processing efficiency. Orchestrated data ingestion with Airflow DAGs to reduce manual operational overhead. Utilized Cassandra for high-throughput writes and low-latency reads, with Confluent Control Center monitoring for streaming reliability.",
+    technologies: ["Python", "Kafka", "Spark", "Airflow", "Cassandra", "PostgreSQL", "Docker"],
+  },
+   {
+    title: "ConvertFlow: Video to MP3 Converter",
     image: converter,
     description:
-      "A project to convert video to mp3",
-    technologies: ["Python", "MySQL", "MongoDB", "RabbitMQ", "Docker", "Kubernetes", "k9s"],
+      "A microservices-based application that converts video files into MP3 format with automated scaling capabilities. Implements user authentication with MySQL, file storage with MongoDB for optimized upload/download performance, and asynchronous message processing with RabbitMQ. Deployed on Kubernetes with Docker containerization for enhanced scalability.",
+    technologies: ["Python", "MySQL", "MongoDB", "Docker", "RabbitMQ", "Kubernetes"],
   },
   {
     title: "CurrencyExchanger",
@@ -77,6 +84,13 @@ export const PROJECTS = [
     description:
       "A microservice website made for online currency convert",
     technologies: ["Java", "SpringBoot", "JPA", "Eureka", "Zipkin", "Spring Cloud Gateway", "Docker", "EC2"],
+  },
+  {
+    title: "BlogSphere",
+    image: blog_web,
+    description:
+      "A full-stack blog website using the MERN stack ",
+    technologies: ["React", "Node.js", "Express.js",  "MongoDB"],
   },
   // {
   //   title: "Blogging Platform",
